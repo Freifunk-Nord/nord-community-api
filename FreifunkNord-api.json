@@ -1,0 +1,67 @@
+{
+  "name": "Freifunk Nord",
+  "url": "https://ffnord.net",
+  "location": {
+    "city": "Kiel",
+    "country": "DE",
+    "lat": 54.314985,
+    "lon": 10.12396
+  },
+  "contact": {
+    "email": "ffnord@freifunk.net",
+    "irc": "irc://irc.hackint.org/%23ffnord",
+    "ml": "http://lists.freifunk.net/mailman/listinfo/ffnord-freifunk.net",
+    "twitter": "@FreifunkNord"
+  },
+  "state": {
+    "nodes": 34,
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Local services and content",
+      "Free internet access"
+    ],
+    "lastchange": "2015-11-24T11:50:20.989Z"
+  },
+  "feeds": [
+    {
+      "name": "Freifunk Nord Wiki",
+      "category": "wiki",
+      "type": "html",
+      "url": "http://wiki.freifunk.net/Freifunk_Nord"
+    }
+  ],
+  "nodeMaps": [
+    {
+      "url": "https://mesh.ffnord.net/",
+      "interval": "60",
+      "technicalType": "meshviewer",
+      "mapType": "geographical"
+    }
+  ],
+  "techDetails": {
+    "firmware": {
+      "name": "gluon",
+      "url": "https://ffnord.net/firmware.html"
+    },
+    "dns": [
+      {
+        "domainname": "ffnord",
+        "nameserver": [
+          "vpn0.ffnord.net",
+          "vpn2.ffnord.net"
+        ]
+      }
+    ],
+    "routing": [
+      "batman-adv"
+    ],
+    "updatemode": [
+      "autoupdate"
+    ],
+    "legals": [
+      "vpninternational"
+    ]
+  },
+  "api": "0.4.9"
+}

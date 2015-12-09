@@ -1,0 +1,101 @@
+{
+  "name": "Freifunk Nord",
+  "url": "https://ffnord.net",
+  "techDetails": {
+    "updatemode": [
+      "manual",
+      "autoupdate"
+    ],
+    "firmware": {
+      "url": "https://ffnord.net/firmware.html",
+      "docs": "https://github.com/ffnord/site-nord",
+      "vpnaccess": "fwimage",
+      "name": "gluon",
+      "registrationurl": "http://formular.ffnord.net/"
+    },
+    "legals": [
+      "vpninternational"
+    ],
+    "routing": [
+      "batman-adv"
+    ],
+    "dns": [
+      {
+        "nameserver": [
+          "vpn0.ffnord.net",
+          "vpn2.ffnord.net"
+        ],
+        "domainname": "ffnord"
+      }
+    ],
+    "networks": {
+      "ipv4": [
+        {
+          "network": "10.187.0.0/16"
+        }
+      ],
+      "ipv6": [
+        {
+          "network": "2a03:2267:4e6f:7264::/64"
+        }
+      ]
+    }
+  },
+  "support": {
+    "club": {
+      "city": "Kiel",
+      "name": "Offene Netze Nord e.V., bei Toppoint e.V",
+      "zip": "24118",
+      "url": "http://offenenetzenord.de/",
+      "street": "Fraunhofer Str. 2-4",
+      "email": "onn@offenenetzenord.de"
+    }
+  },
+  "contact": {
+    "ml": "http://lists.freifunk.net/mailman/listinfo/ffnord-freifunk.net",
+    "twitter": "@FreifunkNord",
+    "irc": "irc://irc.hackint.org/%23ffnord",
+    "email": "ffnord@freifunk.net"
+  },
+  "state": {
+    "nodes": 63,
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Local services and content",
+      "Free internet access"
+    ],
+    "lastchange": "2015-12-09T21:28:01.067520",
+    "description": "Freifnunk Nord ist eine Netz f\u00fcr die Gemeinden im n\u00f6rdlichen Niedersachsen und in Schleswig-Holstein, die noch zu klein sind, um eigenes Netz zu betreiben.\r\nZiel ist die Freifunker_innen vor Ort zu Unterst\u00fctzen und die Gemeinden wachsen zu sehen, bis gro\u00df genug sindwiederum eigene Netze auszugr\u00fcnden."
+  },
+  "api": "0.4.10",
+  "location": {
+    "lat": 53.707275058241,
+    "city": "Norderstedt",
+    "lon": 9.9961853027344,
+    "country": "DE"
+  },
+  "metacommunity": "ffnord",
+  "nodeMaps": [
+    {
+      "url": "https://mesh.ffnord.net/",
+      "interval": "1",
+      "technicalType": "meshviewer",
+      "mapType": "geographical"
+    },
+    {
+      "url": "http://mesh.ffnord.net/data/nodelist.json",
+      "interval": "1",
+      "technicalType": "nodelist",
+      "mapType": "list/status"
+    }
+  ],
+  "feeds": [
+    {
+      "category": "wiki",
+      "url": "http://wiki.freifunk.net/Freifunk_Nord",
+      "type": "html",
+      "name": "Freifunk Nord Wiki"
+    }
+  ]
+}

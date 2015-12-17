@@ -1,14 +1,14 @@
 {
   "name": "Freifunk Nord",
-  "url": "https://ffnord.net",
+  "url": "https://nord.freifunk.net",
   "techDetails": {
     "updatemode": [
       "manual",
       "autoupdate"
     ],
     "firmware": {
-      "url": "https://ffnord.net/firmware.html",
-      "docs": "https://github.com/ffnord/site-nord",
+      "url": "https://nord.freifunk.net/firmware.html",
+      "docs": "https://github.com/ffnord/nord-site",
       "vpnaccess": "fwimage",
       "name": "gluon",
       "registrationurl": "http://formular.ffnord.net/"
@@ -54,8 +54,8 @@
   "contact": {
     "ml": "http://lists.freifunk.net/mailman/listinfo/ffnord-freifunk.net",
     "twitter": "@FreifunkNord",
-    "irc": "irc://irc.hackint.org/%23ffnord",
-    "email": "ffnord@freifunk.net"
+    "irc": "irc://irc.hackint.org/#ffnord",
+    "email": "kontakt@freifunk.net"
   },
   "state": {
     "nodes": 63,

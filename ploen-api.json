@@ -1,0 +1,111 @@
+{
+  "name": "Freifunk Plön",
+  "url": "https://ploen.freifunk.net",
+  "location": {
+    "city": "Plön",
+    "country": "DE",
+    "lat": 54.159796,
+    "lon": 10.422528,
+    "address": {
+      "Name": "Offene Netze Nord e.V., bei Toppoint e.V",
+      "Street": "Fraunhofer Str. 2-4",
+      "Zipcode": "24118"
+    }
+  },
+  "contact": {
+    "email": "kontakt@ffnord.net",
+    "irc": "irc://hackint.org/ffnord",
+    "ml": "http://lists.freifunk.net/mailman/listinfo/ffnord-freifunk.net",
+    "twitter": "@FreifunkNord"
+  },
+  "metacommunity": "Freifunk Nord",
+  "state": {
+    "nodes": 716,
+    "description": "Freifnunk Nord ist eine Netz für die Gemeinden im nördlichen Niedersachsen und in Schleswig-Holstein, die noch zu klein sind, um eigenes Netz zu betreiben. Ziel ist die Freifunker_innen vor Ort zu Unterstützen und die Gemeinden wachsen zu sehen, bis diese groß genug sind eigene Netze zu betreiben.",
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Social Community Building",
+      "Local services and content",
+      "Free internet access"
+    ],
+    "lastchange": "2016-06-06T11:06:48.204Z"
+  },
+  "services": [
+    {
+      "serviceName": "Jabber",
+      "serviceDescription": "FFNord / Hamburg Jabber Server",
+      "externalUri": "https://xmpp.ffnord.net/"
+    }
+  ],
+  "nodeMaps": [
+    {
+      "url": "https://mesh.nord.freifunk.net",
+      "interval": "1",
+      "technicalType": "meshviewer",
+      "mapType": "geographical"
+    }
+  ],
+  "socialprojects": {
+    "number": 5,
+    "website": "https://wiki.freifunk.net/Freifunk_Nord#Soziale_Projekte_und_Fl.C3.BCchtlingshilfe",
+    "contact": "kontakt@ffnord.net"
+  },
+  "support": {
+    "club": {
+      "name": "Offene Netze Nord e.V,",
+      "street": "Fraunhofer Str. 2-4",
+      "zip": "24118",
+      "city": "Kiel",
+      "url": "http://offenenetzenord.de/",
+      "email": "onn@offenenetzenord.de"
+    }
+  },
+  "techDetails": {
+    "firmware": {
+      "name": "Gluon",
+      "url": "https://nord.freifunk.net/firmware.html",
+      "docs": "https://github.com/ffnord/nord-site/blob/master/CHANGELOG.md",
+      "vpnaccess": "webform",
+      "registrationurl": "https://formular.nord.freifunk.net",
+      "orgrestrictions": "PPA: http://www.picopeer.net/PPA-de.shtml\r\nMoU: https://github.com/freifunk/MoU/blob/master/FreifunkMemorandumofUnderstanding.md",
+      "techrestrictions": "Gluon kompatible Hardware benötigt."
+    },
+    "dns": [
+      {
+        "domainname": "ffnord",
+        "nameserver": [
+          "0.ntp.services.ffnord",
+          "1.ntp.services.ffnord",
+          "2.ntp.services.ffnord",
+          "3.ntp.services.ffnord",
+          "4.ntp.services.ffnord",
+          "5.ntp.services.ffnord"
+        ]
+      }
+    ],
+    "networks": {
+      "ipv6": [
+        {
+          "network": "2a03:2267:4e6f:7264::/64"
+        }
+      ],
+      "ipv4": [
+        {
+          "network": "10.187.0.0/16"
+        }
+      ]
+    },
+    "routing": [
+      "802.11s",
+      "batman-adv"
+    ],
+    "updatemode": [
+      "autoupdate"
+    ],
+    "legals": [
+      "vpninternational"
+    ]
+  },
+  "api": "0.4.13"
+}

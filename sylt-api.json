@@ -20,7 +20,7 @@
   },
   "metacommunity": "Freifunk Nord",
   "state": {
-    "nodes": 716,
+    "nodes": 40,
     "description": "Freifnunk Nord ist eine Netz für die Gemeinden im nördlichen Niedersachsen und in Schleswig-Holstein, die noch zu klein sind, um eigenes Netz zu betreiben. Ziel ist die Freifunker_innen vor Ort zu Unterstützen und die Gemeinden wachsen zu sehen, bis diese groß genug sind eigene Netze zu betreiben.",
     "focus": [
       "infrastructure/backbone",

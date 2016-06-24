@@ -1,5 +1,5 @@
 {
-  "name": "Freifunk Sylt",
+  "name": "Freifunk Segeberg",
   "api": "0.4.13",
   "url": "https://nord.freifunk.net",
   "techDetails": {
@@ -77,14 +77,14 @@
     "email": "kontakt@ffnord.net"
   },
   "location": {
-    "lat": 54.907653,
-    "city": "Sylt",
+    "lat": 53.923483,
+    "city": "Segeberg",
     "address": {
       "Street": "Fraunhofer Str. 2-4",
       "Name": "Offene Netze Nord e.V., bei Toppoint e.V",
       "Zipcode": "24118"
     },
-    "lon": 8.306482,
+    "lon": 10.11417,
     "country": "DE"
   },
   "metacommunity": "Freifunk Nord",

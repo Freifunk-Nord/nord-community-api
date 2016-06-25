@@ -1,6 +1,5 @@
 {
   "name": "Freifunk Pl\u00f6n",
-  "api": "0.4.13",
   "url": "https://ploen.freifunk.net",
   "techDetails": {
     "updatemode": [
@@ -58,34 +57,35 @@
       "email": "onn@offenenetzenord.de"
     }
   },
-  "state": {
-    "nodes": 54,
-    "lastchange": "2016-06-25T01:10:01.176998",
-    "focus": [
-      "infrastructure/backbone",
-      "Public Free Wifi",
-      "Social Community Building",
-      "Local services and content",
-      "Free internet access"
-    ],
-    "description": "Freifnunk Nord ist eine Netz f\u00fcr die Gemeinden im n\u00f6rdlichen Niedersachsen und in Schleswig-Holstein, die noch zu klein sind, um eigenes Netz zu betreiben. Ziel ist die Freifunker_innen vor Ort zu Unterst\u00fctzen und die Gemeinden wachsen zu sehen, bis diese gro\u00df genug sind eigene Netze zu betreiben."
-  },
   "contact": {
     "ml": "http://lists.freifunk.net/mailman/listinfo/ffnord-freifunk.net",
     "twitter": "@FreifunkNord",
     "irc": "irc://hackint.org/ffnord",
     "email": "kontakt@ffnord.net"
   },
+  "state": {
+    "nodes": 54,
+    "description": "Freifnunk Nord ist eine Netz f\u00fcr die Gemeinden im n\u00f6rdlichen Niedersachsen und in Schleswig-Holstein, die noch zu klein sind, um eigenes Netz zu betreiben. Ziel ist die Freifunker_innen vor Ort zu Unterst\u00fctzen und die Gemeinden wachsen zu sehen, bis diese gro\u00df genug sind eigene Netze zu betreiben.",
+    "lastchange": "2016-06-25T02:30:01.562379",
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Social Community Building",
+      "Local services and content",
+      "Free internet access"
+    ]
+  },
+  "api": "0.4.13",
   "location": {
     "lat": 54.159796,
     "city": "Pl\u00f6n",
+    "country": "DE",
+    "lon": 10.422528,
     "address": {
       "Street": "Fraunhofer Str. 2-4",
       "Name": "Offene Netze Nord e.V., bei Toppoint e.V",
       "Zipcode": "24118"
-    },
-    "lon": 10.422528,
-    "country": "DE"
+    }
   },
   "metacommunity": "Freifunk Nord",
   "services": [

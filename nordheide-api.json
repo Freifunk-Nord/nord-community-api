@@ -1,38 +1,95 @@
 {
   "name": "Freifunk Nordheide",
   "url": "https://nordheide.freifunk.net",
-  "location": {
-    "city": "Nordheide",
-    "country": "DE",
-    "lat": 53.324244,
-    "lon": 9.883600,
-    "address": {
-      "Name": "Heidekrug",
-      "Street": "Bendestorfer Str. 11",
-      "Zipcode": "21244"
+  "techDetails": {
+    "updatemode": [
+      "autoupdate"
+    ],
+    "firmware": {
+      "name": "Gluon",
+      "vpnaccess": "webform",
+      "url": "https://nord.freifunk.net/firmware.html",
+      "docs": "https://github.com/ffnord/nord-site/blob/master/CHANGELOG.md",
+      "orgrestrictions": "PPA: http://www.picopeer.net/PPA-de.shtml\r\nMoU: https://github.com/freifunk/MoU/blob/master/FreifunkMemorandumofUnderstanding.md",
+      "techrestrictions": "Gluon kompatible Hardware ben\u00f6tigt.",
+      "registrationurl": "https://formular.nord.freifunk.net"
+    },
+    "legals": [
+      "vpninternational"
+    ],
+    "routing": [
+      "802.11s",
+      "batman-adv"
+    ],
+    "dns": [
+      {
+        "nameserver": [
+          "0.ntp.services.ffnord",
+          "1.ntp.services.ffnord",
+          "2.ntp.services.ffnord",
+          "3.ntp.services.ffnord",
+          "4.ntp.services.ffnord",
+          "5.ntp.services.ffnord"
+        ],
+        "domainname": "ffnord"
+      }
+    ],
+    "networks": {
+      "ipv4": [
+        {
+          "network": "10.187.0.0/16"
+        }
+      ],
+      "ipv6": [
+        {
+          "network": "2a03:2267:4e6f:7264::/64"
+        }
+      ]
+    }
+  },
+  "support": {
+    "club": {
+      "city": "Kiel",
+      "name": "Offene Netze Nord e.V,",
+      "zip": "24118",
+      "url": "http://offenenetzenord.de/",
+      "street": "Fraunhofer Str. 2-4",
+      "email": "onn@offenenetzenord.de"
     }
   },
   "contact": {
     "facebook": "https://www.facebook.com/groups/FreifunkNordheide/"
   },
-  "metacommunity": "Freifunk Nord",
   "state": {
-    "nodes": 30,
-    "description": "Freifnunk Nord ist eine Netz für die Gemeinden im nördlichen Niedersachsen und in Schleswig-Holstein, die noch zu klein sind, um eigenes Netz zu betreiben. Ziel ist die Freifunker_innen vor Ort zu Unterstützen und die Gemeinden wachsen zu sehen, bis diese groß genug sind eigene Netze zu betreiben.",
+    "nodes": 54,
+    "description": "Freifnunk Nord ist eine Netz f\u00fcr die Gemeinden im n\u00f6rdlichen Niedersachsen und in Schleswig-Holstein, die noch zu klein sind, um eigenes Netz zu betreiben. Ziel ist die Freifunker_innen vor Ort zu Unterst\u00fctzen und die Gemeinden wachsen zu sehen, bis diese gro\u00df genug sind eigene Netze zu betreiben.",
+    "lastchange": "2016-06-25T02:30:01.562379",
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
       "Social Community Building",
       "Local services and content",
       "Free internet access"
-    ],
-    "lastchange": "2016-06-06T11:06:48.204Z"
+    ]
   },
+  "api": "0.4.13",
+  "location": {
+    "lat": 53.324244,
+    "city": "Nordheide",
+    "country": "DE",
+    "lon": 9.8836,
+    "address": {
+      "Street": "Bendestorfer Str. 11",
+      "Name": "Heidekrug",
+      "Zipcode": "21244"
+    }
+  },
+  "metacommunity": "Freifunk Nord",
   "services": [
     {
       "serviceName": "Jabber",
-      "serviceDescription": "FFNord / Hamburg Jabber Server",
-      "externalUri": "https://xmpp.ffnord.net/"
+      "externalUri": "https://xmpp.ffnord.net/",
+      "serviceDescription": "FFNord / Hamburg Jabber Server"
     }
   ],
   "nodeMaps": [
@@ -44,65 +101,8 @@
     }
   ],
   "socialprojects": {
-    "number": 5,
     "website": "https://wiki.freifunk.net/Freifunk_Nord#Soziale_Projekte_und_Fl.C3.BCchtlingshilfe",
-    "contact": "kontakt@ffnord.net"
-  },
-  "support": {
-    "club": {
-      "name": "Offene Netze Nord e.V,",
-      "street": "Fraunhofer Str. 2-4",
-      "zip": "24118",
-      "city": "Kiel",
-      "url": "http://offenenetzenord.de/",
-      "email": "onn@offenenetzenord.de"
-    }
-  },
-  "techDetails": {
-    "firmware": {
-      "name": "Gluon",
-      "url": "https://nord.freifunk.net/firmware.html",
-      "docs": "https://github.com/ffnord/nord-site/blob/master/CHANGELOG.md",
-      "vpnaccess": "webform",
-      "registrationurl": "https://formular.nord.freifunk.net",
-      "orgrestrictions": "PPA: http://www.picopeer.net/PPA-de.shtml\r\nMoU: https://github.com/freifunk/MoU/blob/master/FreifunkMemorandumofUnderstanding.md",
-      "techrestrictions": "Gluon kompatible Hardware benötigt."
-    },
-    "dns": [
-      {
-        "domainname": "ffnord",
-        "nameserver": [
-          "0.ntp.services.ffnord",
-          "1.ntp.services.ffnord",
-          "2.ntp.services.ffnord",
-          "3.ntp.services.ffnord",
-          "4.ntp.services.ffnord",
-          "5.ntp.services.ffnord"
-        ]
-      }
-    ],
-    "networks": {
-      "ipv6": [
-        {
-          "network": "2a03:2267:4e6f:7264::/64"
-        }
-      ],
-      "ipv4": [
-        {
-          "network": "10.187.0.0/16"
-        }
-      ]
-    },
-    "routing": [
-      "802.11s",
-      "batman-adv"
-    ],
-    "updatemode": [
-      "autoupdate"
-    ],
-    "legals": [
-      "vpninternational"
-    ]
-  },
-  "api": "0.4.13"
+    "contact": "kontakt@ffnord.net",
+    "number": 5
+  }
 }

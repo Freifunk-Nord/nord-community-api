@@ -1,7 +1,6 @@
 {
-  "name": "Freifunk Stade",
-  "api": "0.4.13",
-  "url": "https://stade.freifunk.net",
+  "name": "Freifunk Segeberg",
+  "url": "https://nord.freifunk.net",
   "techDetails": {
     "updatemode": [
       "autoupdate"
@@ -58,10 +57,16 @@
       "email": "onn@offenenetzenord.de"
     }
   },
+  "contact": {
+    "ml": "http://lists.freifunk.net/mailman/listinfo/ffnord-freifunk.net",
+    "twitter": "@FreifunkNord",
+    "irc": "irc://hackint.org/ffnord",
+    "email": "kontakt@ffnord.net"
+  },
   "state": {
     "nodes": 54,
-    "lastchange": "2016-06-25T02:30:01.562379",
     "description": "Freifnunk Nord ist eine Netz f\u00fcr die Gemeinden im n\u00f6rdlichen Niedersachsen und in Schleswig-Holstein, die noch zu klein sind, um eigenes Netz zu betreiben. Ziel ist die Freifunker_innen vor Ort zu Unterst\u00fctzen und die Gemeinden wachsen zu sehen, bis diese gro\u00df genug sind eigene Netze zu betreiben.",
+    "lastchange": "2016-06-25T02:30:01.562379",
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
@@ -70,22 +75,17 @@
       "Free internet access"
     ]
   },
-  "contact": {
-    "ml": "http://lists.freifunk.net/mailman/listinfo/ffnord-freifunk.net",
-    "twitter": "@FreifunkNord",
-    "irc": "irc://hackint.org/ffnord",
-    "email": "kontakt@ffnord.net"
-  },
+  "api": "0.4.13",
   "location": {
-    "lat": 53.594135,
-    "city": "Stade",
+    "lat": 53.923483,
+    "city": "Segeberg",
+    "country": "DE",
+    "lon": 10.11417,
     "address": {
-      "Street": "H\u00f6kerstra\u00dfe 10",
-      "Name": "Ratskeller Stade",
-      "Zipcode": "21682"
-    },
-    "lon": 9.468842,
-    "country": "DE"
+      "Street": "Fraunhofer Str. 2-4",
+      "Name": "Offene Netze Nord e.V., bei Toppoint e.V",
+      "Zipcode": "24118"
+    }
   },
   "metacommunity": "Freifunk Nord",
   "services": [

@@ -1,9 +1,9 @@
 # community-api
 Freifunk Community API JSON
 
-Vorbereitung: man muss aus dem Original `nodes.json` eine Datei für jeden Landkreis von hand (mit hilfe des Api Generators) erzeugen
+Vorbereitung: Man muss aus dem Original `Original-api.json` eine Datei für jeden Landkreis von hand (mit Hilfe des [Api Generators](https://freifunk.net/api-generator/)) erzeugen
 
-Das script aktualisiert die Anzahl Nodes in allen Landkreis-Dateien, wobei die Anzahl Knoten pro Landkreis nur aproximiert wird indem die Gesamtzahl online Knoten durch die Anzahl Landkreise geteilt wird.
+Das Script `api.py` aktualisiert die Anzahl der Nodes in allen Landkreis-Dateien, wobei die Anzahl Knoten pro Landkreis nur aproximiert wird indem die Gesamtzahl online Knoten durch die Anzahl Landkreise geteilt wird.
 
 Zum neu generieren einfach das Script ausführen
 

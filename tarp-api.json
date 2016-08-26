@@ -50,7 +50,7 @@
   "support": {
     "club": {
       "city": "Kiel",
-      "name": "Offene Netze Nord e.V,",
+      "name": "Offene Netze Nord e.V.",
       "zip": "24118",
       "url": "http://offenenetzenord.de/",
       "street": "Fraunhofer Str. 2-4",
@@ -64,9 +64,9 @@
     "email": "kontakt@ffnord.net"
   },
   "state": {
-    "nodes": 54,
-    "description": "Freifnunk Nord ist eine Netz f\u00fcr die Gemeinden im n\u00f6rdlichen Niedersachsen und in Schleswig-Holstein, die noch zu klein sind, um eigenes Netz zu betreiben. Ziel ist die Freifunker_innen vor Ort zu Unterst\u00fctzen und die Gemeinden wachsen zu sehen, bis diese gro\u00df genug sind eigene Netze zu betreiben.",
-    "lastchange": "2016-06-25T02:30:01.562379",
+    "nodes": 44,
+    "description": "Freifunk Nord ist eine Netz f\u00fcr die Gemeinden im n\u00f6rdlichen Niedersachsen und in Schleswig-Holstein, die noch zu klein sind, um eigenes Netz zu betreiben. Ziel ist die Freifunker_innen vor Ort zu Unterst\u00fctzen und die Gemeinden wachsen zu sehen, bis diese gro\u00df genug sind eigene Netze zu betreiben.",
+    "lastchange": "2016-08-26T19:17:22.538000",
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
@@ -75,12 +75,12 @@
       "Free internet access"
     ]
   },
-  "api": "0.4.13",
+  "api": "0.4.14",
   "location": {
-    "lat": 54.665564,
+    "lat": 54.654582,
     "city": "Tarp",
     "country": "DE",
-    "lon": 9.401218,
+    "lon": 9.410091,
     "address": {
       "Street": "An der Alten Schule 3",
       "Name": "OKTarp",

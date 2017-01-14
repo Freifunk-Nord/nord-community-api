@@ -59,7 +59,7 @@
     }
   },
   "state": {
-    "nodes": 54,
+    "nodes": 329,
     "lastchange": "2016-06-25T02:30:01.562379",
     "description": "Freifnunk Nord ist eine Netz f\u00fcr die Gemeinden im n\u00f6rdlichen Niedersachsen und in Schleswig-Holstein, die noch zu klein sind, um eigenes Netz zu betreiben. Ziel ist die Freifunker_innen vor Ort zu Unterst\u00fctzen und die Gemeinden wachsen zu sehen, bis diese gro\u00df genug sind eigene Netze zu betreiben.",
     "focus": [
@@ -106,6 +106,6 @@
   "socialprojects": {
     "website": "https://wiki.freifunk.net/Freifunk_Nord#Soziale_Projekte_und_Fl.C3.BCchtlingshilfe",
     "contact": "kontakt@ffnord.net",
-    "number": 329
+    "number": 5
   }
 }

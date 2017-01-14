@@ -1,7 +1,6 @@
 {
   "name": "Freifunk Malente",
-  "api": "0.4.13",
-  "url": "https://malente.freifunk.net",
+  "url": "https://freifunk-malente.de",
   "techDetails": {
     "updatemode": [
       "autoupdate"
@@ -58,34 +57,35 @@
       "email": "onn@offenenetzenord.de"
     }
   },
-  "state": {
-    "nodes": 54,
-    "lastchange": "2016-06-25T02:30:01.562379",
-    "description": "Freifnunk Nord ist eine Netz f\u00fcr die Gemeinden im n\u00f6rdlichen Niedersachsen und in Schleswig-Holstein, die noch zu klein sind, um eigenes Netz zu betreiben. Ziel ist die Freifunker_innen vor Ort zu Unterst\u00fctzen und die Gemeinden wachsen zu sehen, bis diese gro\u00df genug sind eigene Netze zu betreiben.",
-    "focus": [
-      "infrastructure/backbone",
-      "Public Free Wifi",
-      "Social Community Building",
-      "Local services and content",
-      "Free internet access"
-    ]
-  },
   "contact": {
     "ml": "http://lists.freifunk.net/mailman/listinfo/ffnord-freifunk.net",
     "twitter": "@FreifunkNord",
     "irc": "irc://hackint.org/ffnord",
     "email": "kontakt@ffnord.net"
   },
+  "state": {
+    "nodes": 51,
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Social Community Building",
+      "Local services and content",
+      "Free internet access"
+    ],
+    "lastchange": "2017-01-01T23:59:01.058857",
+    "description": "Freifnunk Nord ist eine Netz f\u00fcr die Gemeinden im n\u00f6rdlichen Niedersachsen und in Schleswig-Holstein, die noch zu klein sind, um eigenes Netz zu betreiben. Ziel ist die Freifunker_innen vor Ort zu Unterst\u00fctzen und die Gemeinden wachsen zu sehen, bis diese gro\u00df genug sind eigene Netze zu betreiben."
+  },
+  "api": "0.4.13",
   "location": {
     "lat": 54.165622,
     "city": "Malente",
+    "country": "DE",
+    "lon": 10.548846,
     "address": {
       "Street": "Fraunhofer Str. 2-4",
       "Name": "Offene Netze Nord e.V., bei Toppoint e.V",
       "Zipcode": "24118"
-    },
-    "lon": 10.548846,
-    "country": "DE"
+    }
   },
   "metacommunity": "Freifunk Nord",
   "services": [

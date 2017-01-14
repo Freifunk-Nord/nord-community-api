@@ -1,5 +1,6 @@
 {
   "name": "Freifunk Nordheide",
+  "api": "0.4.13",
   "url": "https://nordheide.freifunk.net",
   "techDetails": {
     "updatemode": [
@@ -57,13 +58,10 @@
       "email": "onn@offenenetzenord.de"
     }
   },
-  "contact": {
-    "facebook": "https://www.facebook.com/groups/FreifunkNordheide/"
-  },
   "state": {
-    "nodes": 54,
+    "nodes": 51,
+    "lastchange": "2017-01-01T23:59:01.058857",
     "description": "Freifnunk Nord ist eine Netz f\u00fcr die Gemeinden im n\u00f6rdlichen Niedersachsen und in Schleswig-Holstein, die noch zu klein sind, um eigenes Netz zu betreiben. Ziel ist die Freifunker_innen vor Ort zu Unterst\u00fctzen und die Gemeinden wachsen zu sehen, bis diese gro\u00df genug sind eigene Netze zu betreiben.",
-    "lastchange": "2016-06-25T02:30:01.562379",
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
@@ -72,17 +70,19 @@
       "Free internet access"
     ]
   },
-  "api": "0.4.13",
+  "contact": {
+    "facebook": "https://www.facebook.com/groups/FreifunkNordheide/"
+  },
   "location": {
     "lat": 53.324244,
     "city": "Nordheide",
-    "country": "DE",
-    "lon": 9.8836,
     "address": {
       "Street": "Bendestorfer Str. 11",
       "Name": "Heidekrug",
       "Zipcode": "21244"
-    }
+    },
+    "lon": 9.8836,
+    "country": "DE"
   },
   "metacommunity": "Freifunk Nord",
   "services": [

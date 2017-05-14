@@ -59,8 +59,8 @@
     }
   },
   "state": {
-    "nodes": 51,
-    "lastchange": "2017-01-01T23:59:01.058857",
+    "nodes": 58,
+    "lastchange": "2017-05-01T23:59:01.964278",
     "description": "Freifnunk Nord ist eine Netz f\u00fcr die Gemeinden im n\u00f6rdlichen Niedersachsen und in Schleswig-Holstein, die noch zu klein sind, um eigenes Netz zu betreiben. Ziel ist die Freifunker_innen vor Ort zu Unterst\u00fctzen und die Gemeinden wachsen zu sehen, bis diese gro\u00df genug sind eigene Netze zu betreiben.",
     "focus": [
       "infrastructure/backbone",

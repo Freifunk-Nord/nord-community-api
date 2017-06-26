@@ -1,5 +1,6 @@
 {
   "name": "Freifunk Malente",
+  "api": "0.4.13",
   "url": "https://freifunk-malente.de",
   "techDetails": {
     "updatemode": [
@@ -57,14 +58,9 @@
       "email": "onn@offenenetzenord.de"
     }
   },
-  "contact": {
-    "ml": "http://lists.freifunk.net/mailman/listinfo/ffnord-freifunk.net",
-    "twitter": "@FreifunkNord",
-    "irc": "irc://hackint.org/ffnord",
-    "email": "kontakt@ffnord.net"
-  },
   "state": {
-    "nodes": 58,
+    "nodes": 57,
+    "lastchange": "2017-06-26T16:50:12.977451",
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
@@ -72,20 +68,24 @@
       "Local services and content",
       "Free internet access"
     ],
-    "lastchange": "2017-05-01T23:59:01.964278",
     "description": "Freifnunk Nord ist eine Netz f\u00fcr die Gemeinden im n\u00f6rdlichen Niedersachsen und in Schleswig-Holstein, die noch zu klein sind, um eigenes Netz zu betreiben. Ziel ist die Freifunker_innen vor Ort zu Unterst\u00fctzen und die Gemeinden wachsen zu sehen, bis diese gro\u00df genug sind eigene Netze zu betreiben."
   },
-  "api": "0.4.13",
+  "contact": {
+    "ml": "http://lists.freifunk.net/mailman/listinfo/ffnord-freifunk.net",
+    "twitter": "@FreifunkNord",
+    "irc": "irc://hackint.org/ffnord",
+    "email": "kontakt@ffnord.net"
+  },
   "location": {
     "lat": 54.165622,
     "city": "Malente",
-    "country": "DE",
-    "lon": 10.548846,
     "address": {
       "Street": "Fraunhofer Str. 2-4",
       "Name": "Offene Netze Nord e.V., bei Toppoint e.V",
       "Zipcode": "24118"
-    }
+    },
+    "lon": 10.548846,
+    "country": "DE"
   },
   "metacommunity": "Freifunk Nord",
   "services": [

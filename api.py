@@ -25,7 +25,7 @@ Landkreise={
 	"tarp":[]
 }
 
-path="/var/www/html/meshviewer/nord-community-api/"
+path="/opt/nord-community-api/"
 appendix="-api.json"
 
 #Datei oeffnen

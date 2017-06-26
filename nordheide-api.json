@@ -94,7 +94,7 @@
   ],
   "nodeMaps": [
     {
-      "url": "https://mesh.nord.freifunk.net",
+      "url": "https://mesh.freifunknord.de",
       "interval": "1",
       "technicalType": "meshviewer",
       "mapType": "geographical"

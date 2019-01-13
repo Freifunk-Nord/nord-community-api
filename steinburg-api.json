@@ -1,6 +1,6 @@
 {
   "name": "Freifunk Steinburg",
-  "url": "https://nord.freifunk.net",
+  "url": "https://steinburg.freifunknord.de",
   "techDetails": {
     "updatemode": [
       "autoupdate"
@@ -8,11 +8,10 @@
     "firmware": {
       "name": "Gluon",
       "vpnaccess": "webform",
-      "url": "https://nord.freifunk.net/firmware.html",
+      "url": "https://nord.freifunk.net/firmware-iz.html",
       "docs": "https://github.com/ffnord/nord-site/blob/master/CHANGELOG.md",
       "orgrestrictions": "PPA: http://www.picopeer.net/PPA-de.shtml\r\nMoU: https://github.com/freifunk/MoU/blob/master/FreifunkMemorandumofUnderstanding.md",
       "techrestrictions": "Gluon kompatible Hardware ben\u00f6tigt.",
-      "registrationurl": "https://formular.nord.freifunk.net"
     },
     "legals": [
       "vpninternational"
@@ -24,14 +23,9 @@
     "dns": [
       {
         "nameserver": [
-          "0.ntp.services.ffnord",
-          "1.ntp.services.ffnord",
-          "2.ntp.services.ffnord",
-          "3.ntp.services.ffnord",
-          "4.ntp.services.ffnord",
-          "5.ntp.services.ffnord"
+          "0.iz.ntp.services.ffnord"
         ],
-        "domainname": "ffnord"
+        "domainname": "ffnord-iz"
       }
     ],
     "networks": {
@@ -42,7 +36,7 @@
       ],
       "ipv6": [
         {
-          "network": "2a03:2267:4e6f:7264::/64"
+          "network": "fd42:eb49:c0b5:4242::/64"
         }
       ]
     }
@@ -50,21 +44,20 @@
   "support": {
     "club": {
       "city": "Kiel",
-      "name": "Offene Netze Nord e.V,",
+      "name": "Freifunk Nord e.V,",
       "zip": "24118",
-      "url": "http://offenenetzenord.de/",
+      "url": "http://freifunknord.de/",
       "street": "Fraunhofer Str. 2-4",
-      "email": "onn@offenenetzenord.de"
+      "email": "kontakt@freifunknord.de"
     }
   },
   "contact": {
     "ml": "http://lists.freifunk.net/mailman/listinfo/ffnord-freifunk.net",
-    "twitter": "@FreifunkNord",
     "irc": "irc://hackint.org/ffnord",
-    "email": "kontakt@ffnord.net"
+    "email": "kontakt@freifunknord.de"
   },
   "state": {
-    "nodes": 57,
+    "nodes": 86,
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
@@ -72,29 +65,22 @@
       "Local services and content",
       "Free internet access"
     ],
-    "lastchange": "2017-06-26T16:50:12.977451",
+    "lastchange": "2019-01-13T13:25:12.977451",
     "description": "Freifnunk Nord ist eine Netz f\u00fcr die Gemeinden im n\u00f6rdlichen Niedersachsen und in Schleswig-Holstein, die noch zu klein sind, um eigenes Netz zu betreiben. Ziel ist die Freifunker_innen vor Ort zu Unterst\u00fctzen und die Gemeinden wachsen zu sehen, bis diese gro\u00df genug sind eigene Netze zu betreiben."
   },
   "api": "0.4.13",
   "location": {
-    "lat": 53.922188,
-    "city": "Steinburg",
+    "lat": 53.924685965,
+    "city": "Itzehoe",
     "country": "DE",
-    "lon": 9.518219,
+    "lon": 9.515490532,
     "address": {
       "Street": "Fraunhofer Str. 2-4",
-      "Name": "Offene Netze Nord e.V., bei Toppoint e.V",
+      "Name": "Freifunk Nord e.V., bei Toppoint e.V",
       "Zipcode": "24118"
     }
   },
   "metacommunity": "Freifunk Nord",
-  "services": [
-    {
-      "serviceName": "Jabber",
-      "externalUri": "https://xmpp.ffnord.net/",
-      "serviceDescription": "FFNord / Hamburg Jabber Server"
-    }
-  ],
   "nodeMaps": [
     {
       "url": "https://mesh.freifunknord.de",
@@ -105,7 +91,7 @@
   ],
   "socialprojects": {
     "website": "https://wiki.freifunk.net/Freifunk_Nord#Soziale_Projekte_und_Fl.C3.BCchtlingshilfe",
-    "contact": "kontakt@ffnord.net",
+    "contact": "kontakt@freifunknord.de",
     "number": 5
   }
 }

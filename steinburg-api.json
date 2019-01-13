@@ -12,7 +12,7 @@
       "docs": "https://github.com/ffnord/nord-site/blob/master/CHANGELOG.md",
       "orgrestrictions": "PPA: http://www.picopeer.net/PPA-de.shtml\r\nMoU: https://github.com/freifunk/MoU/blob/master/FreifunkMemorandumofUnderstanding.md",
       "techrestrictions": "Gluon kompatible Hardware ben\u00f6tigt.",
-    },
+    }
     "legals": [
       "vpninternational"
     ],

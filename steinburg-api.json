@@ -30,7 +30,7 @@
   },
   "nodeMaps": [
     {
-      "url": "https://mesh.freifunknord.de",
+      "url": "http://0.gw.iz.freifunknord.de/meshviewer/",
       "interval": "1",
       "technicalType": "meshviewer"
     }

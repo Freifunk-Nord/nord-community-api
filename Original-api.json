@@ -38,7 +38,7 @@
   ],
   "nodeMaps": [
     {
-      "url": "https://mesh.freifunknord.de",
+      "url": "http://mesh.freifunknord.de",
       "interval": "1",
       "technicalType": "meshviewer",
       "mapType": "geographical"
@@ -62,7 +62,7 @@
   "techDetails": {
     "firmware": {
       "name": "Gluon",
-      "url": "https://nord.freifunk.net/firmware.html",
+      "url": "http://freifunknord.de/firmware.html",
       "docs": "https://github.com/freifunk-nord/nord-site/blob/master/CHANGELOG.md",
       "vpnaccess": "webform",
       "orgrestrictions": "PPA: http://www.picopeer.net/PPA-de.shtml\r\nMoU: https://github.com/freifunk/MoU/blob/master/FreifunkMemorandumofUnderstanding.md",

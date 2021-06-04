@@ -1,33 +1,92 @@
 {
   "name": "Freifunk Kreis Steinburg",
+  "privacy": {
+    "policyurl": "https://nord.freifunk.net/datenschutzerklaerung.html"
+  },
   "url": "https://steinburg.freifunknord.de",
-  "location": {
-    "city": "Malente",
-    "country": "DE",
-    "lat": 54.171541313,
-    "lon": 10.554953814,
-    "address": {
-      "Name": "Toppoint",
-      "Street": "Fraunhoferstr. 2-4",
-      "Zipcode": "24118"
+  "techDetails": {
+    "updatemode": [
+      "autoupdate"
+    ],
+    "firmware": {
+      "url": "https://nord.freifunk.net/firmware_select.html",
+      "docs": "https://github.com/Freifunk-IZ/nord-iz-site",
+      "name": "Gluon",
+      "vpnaccess": "fwimage"
+    },
+    "legals": [
+      "institutions"
+    ],
+    "routing": [
+      "802.11s",
+      "batman-adv"
+    ],
+    "dns": [
+      {
+        "nameserver": [
+          "0.gw.iz.ffnord"
+        ],
+        "domainname": "ffnord"
+      }
+    ],
+    "networks": {
+      "ipv4": [
+        {
+          "network": "10.187.100.0/16"
+        }
+      ],
+      "ipv6": [
+        {
+          "network": "fd42:eb49:c0b5:4242::/64"
+        }
+      ]
+    }
+  },
+  "support": {
+    "club": {
+      "city": "Kiel",
+      "name": "Freifunk Nord e.V.",
+      "zip": "24118",
+      "url": "https://freifunknord.de",
+      "street": "Fraunhoferstr. 2-4",
+      "email": "kontakt@freifunknord.de"
+    },
+    "donations": {
+      "bankaccount": {
+        "usage": "Freifunk Nord",
+        "IBAN": "DE81 7002 2200 0020 2982 66",
+        "BIC": "FDDODEMMXXX"
+      }
     }
   },
   "contact": {
-    "email": "kontakt@freifunknord.de",
+    "ml": "http://lists.freifunk.net/mailman/listinfo/ffnord-freifunk.net",
     "irc": "irc://hackint.org/#ffnord",
-    "ml": "http://lists.freifunk.net/mailman/listinfo/ffnord-freifunk.net"
+    "email": "kontakt@freifunknord.de"
   },
-  "metacommunity": "Freifunk Nord",
   "state": {
-    "nodes": 86,
+    "nodes": 15,
+    "lastchange": "2021-03-12T16:51:29.715832",
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
       "Social Community Building",
       "Free internet access"
-    ],
-    "lastchange": "2019-01-13T12:51:39.521Z"
+    ]
   },
+  "api": "0.4.14",
+  "location": {
+    "lat": 54.171541313,
+    "city": "Malente",
+    "country": "DE",
+    "lon": 10.554953814,
+    "address": {
+      "Street": "Fraunhoferstr. 2-4",
+      "Name": "Toppoint",
+      "Zipcode": "24118"
+    }
+  },
+  "metacommunity": "Freifunk Nord",
   "nodeMaps": [
     {
       "url": "http://0.gw.ploh.freifunknord.de/meshviewer/",
@@ -36,67 +95,8 @@
     }
   ],
   "socialprojects": {
-    "number": 5,
     "website": "https://wiki.freifunk.net/Freifunk_Nord#Soziale_Projekte_und_Fl.C3.BCchtlingshilfe",
-    "contact": "kontakt@freifunknord.de"
-  },
-  "support": {
-    "club": {
-      "name": "Freifunk Nord e.V.",
-      "street": "Fraunhoferstr. 2-4",
-      "zip": "24118",
-      "city": "Kiel",
-      "url": "https://freifunknord.de",
-      "email": "kontakt@freifunknord.de"
-    },
-    "donations": {
-      "bankaccount": {
-        "IBAN": "DE81 7002 2200 0020 2982 66",
-        "BIC": "FDDODEMMXXX",
-        "usage": "Freifunk Nord"
-      }
-    }
-  },
-  "privacy": {
-    "policyurl": "https://nord.freifunk.net/datenschutzerklaerung.html"
-  },
-  "techDetails": {
-    "firmware": {
-      "name": "Gluon",
-      "url": "https://nord.freifunk.net/firmware_select.html",
-      "docs": "https://github.com/Freifunk-IZ/nord-iz-site",
-      "vpnaccess": "fwimage"
-    },
-    "dns": [
-      {
-        "domainname": "ffnord",
-        "nameserver": [
-          "0.gw.iz.ffnord"
-        ]
-      }
-    ],
-    "networks": {
-      "ipv6": [
-        {
-          "network": "fd42:eb49:c0b5:4242::/64"
-        }
-      ],
-      "ipv4": [
-        {
-          "network": "10.187.100.0/16"
-        }
-      ]
-    },
-    "routing": [
-      "802.11s",
-      "batman-adv"
-    ],
-    "updatemode": [
-      "autoupdate"
-    ],
-    "legals": [
-      "institutions"
-    ]
-  },
-  "api": "0.4.14"
+    "contact": "kontakt@freifunknord.de",
+    "number": 5
+  }
 }
